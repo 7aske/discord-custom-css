@@ -1,0 +1,187 @@
+.theme-dark {
+    --header-primary: #ffffff !important;
+    --header-secondary: #81a1c1 !important;
+    --text-normal: #dcddde !important;
+    --text-muted: #80848c !important;
+    --text-link: #00b0f4 !important;
+    --channels-default: #aaa !important;
+    --interactive-normal: #acb4bf !important;
+    --interactive-hover: #fff !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #666d79 !important;
+    --background-primary: #2e3440 !important;
+    --background-secondary: #2e3440 !important;
+    --background-secondary-alt: #2e3440 !important;
+    --background-tertiary: #2e3440 !important;
+    --background-accent: #41fb52 !important;
+    --background-floating: #18191d !important;
+    --background-mobile-secondary: #2e3035 !important;
+    --background-mobile-secondary: #2e3440 !important;
+    --background-modifier-hover: #434c5e !important;
+    --background-modifier-active: #3b4252 !important;
+    --background-modifier-selected: #3b4252 !important;
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --background-mentioned: rgba(250,166,26,0.05) !important;
+    --background-mentioned-hover: rgba(250,166,26,0.08) !important;
+    --background-message-hover: rgba(4,4,5,0.07) !important;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important;
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important;
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important;
+    --logo-primary: #fff !important;
+    --focus-primary: #00b0f4 !important;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4) !important;
+    --channeltextarea-background: #262a31 !important;
+    --activity-card-background: #202225 !important;
+    --textbox-markdown-syntax: #8e9297 !important;
+    --deprecated-card-bg: rgba(32,34,37,0.6) !important;
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3) !important;
+    --deprecated-store-bg: #2e3440!important;
+    --deprecated-quickswitcher-input-background: #72767d !important;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3) !important;
+    --deprecated-text-input-bg: rgba(0,0,0,0.1) !important;
+    --deprecated-text-input-border: rgba(0,0,0,0.3) !important;
+    --deprecated-text-input-border-hover: #040405 !important;
+    --deprecated-text-input-border-disabled: #202225 !important;
+    --deprecated-text-input-prefix: #dcddde !important;
+}
+
+.titleBar-AC4pGV > .winButtonMinMax-PBQ2gm {
+    background: #a3be8c !important;
+    border-radius: 5px !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px 15px 5px 15px !important;
+    transition: background-color 250ms ease-in;
+}
+.titleBar-AC4pGV > .winButtonMinMax-PBQ2gm ~ .winButtonMinMax-PBQ2gm {
+    background: #ebcb8b !important;}.winButtonClose-1HsbF- {
+    background: #bf616a !important;
+    border-radius: 5px !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px 15px 5px 15px !important;
+    transition: background-color 250ms ease-in;
+}
+.winButtonClose-1HsbF-:hover, .winButtonMinMax-PBQ2gm:hover, .titleBar-AC4pGV > .winButtonMinMax-PBQ2gm ~ .winButtonMinMax-PBQ2gm:hover {
+    background: #434c5e !important;
+}
+    
+.winButtonClose-1HsbF- *, .winButtonMinMax-PBQ2gm *{
+    display:none !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scroller-2FKFPG::-webkit-scrollbar-track-piece{border: 0;
+    background-color: #2e3440;
+    width:20px;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb{
+    background-color: #3b4252;
+    transition: background-color 250ms ease-in;
+    border-radius:7px;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb:hover{
+    background-color: #a3be8c;
+}
+
+/*
+.wordmarkWindows-1v0lYD {
+background-color: #262a31;
+margin: 0px 0px 4px 0px;
+width:54px;
+height:24px;}
+*/
+.wordmarkWindows-1v0lYD *{
+    display:none;
+}
+.titleBar-AC4pGV {
+    margin: 8px 0 5px 0;
+}
+.title-3qD0b- path, .chatContent-a9vAAp path{
+    fill: #505f73;
+}
+.form-2fGMdU path{
+    fill: #434c5e;
+}
+
+.pill-31IEus span {
+    border-radius:0;
+    background-color: #81a1c1;
+}
+.title-3qD0b- svg:hover path, .chatContent-a9vAAp svg:hover path{
+    fill:#81a1c1;
+}
+.container-3baos1 path {
+    fill: #81a1c1;
+}
+.content-3at_AU {
+    border-radius: 2px;
+}
+
+/* channel list autohide */
+.wrapper-1Rf91z {
+    /*background-color: #262a31;*/
+    /*border-top-right-radius:4px;*/
+    /*border-top-left-radius:4px;*/
+    /*width:50px;*/
+    /*overflow:hidden;*/
+    /*opacity:0%;*/
+    /*transition: all 150ms ease-in-out;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*z-index: 500;*/
+    /*padding-top:8px;*/
+}
+.wrapper-1Rf91z:hover {
+    width:72px;
+    opacity:100%;
+}
+.wrapper-1Rf91z .scroller-2FKFPG {
+    background-color: #262a31;
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: #8fbcbb;
+}
+.platform-win .sidebar-2K8pFh{
+    border-radius:0;
+}
+.circleIconButton-jET_ig path {
+    fill: #a3be8c;
+}
+.circleIconButton-jET_ig:hover path{
+    fill: #fff;
+}
+.circleIconButton-jET_ig:hover {
+    background-color: #8fbcbb;
+}
+.theme-dark .container-1D34oG {
+    background-color: #2e3440;
+}
+.blobContainer-239gwq img{
+    /*filter: saturate(1) brightness(0.8);*/
+    border-radius:16px;
+    /*opacity: 0.8;*/
+    /*height: 40px;*/
+    /*width: 40px;*/
+    transition: all 250ms ease-in;
+    /*border: 2px solid #384662;*/
+}
+.blobContainer-239gwq:hover img{
+    /*filter: saturate(1) brightness(1);*/
+    /*border: 2px solid #425162;*/
+}
+.listItem-2P_4kh {
+    overflow: hidden;
+}
+.scrollableContainer-2NUZem{
+    border-radius: 2px;
+}
+.base-3dtUhz {
+    margin-left: 0px;
+}
+.layers-3iHuyZ {
+    margin-top: 0px;
+}
+.toolbar-1t6TWx {
+    margin-right:-5px;
+}
